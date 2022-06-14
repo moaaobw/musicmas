@@ -1,9 +1,9 @@
 {
-  "name": "ميوزك ماس",
-  "logo": "https://telegra.ph/file/b2c4ce7e2d6f302169df5.jpg",
-  "description": "سورس ماس مجاني لايخدعك احد في التنصيب.",
+  "name": "ميوزك كوبرا",
+  "logo": "https://te.legra.ph/file/402c519808f75bd9b1803.jpg",
+  "description": "سورس كوبرا مجاني لايخدعك احد في التنصيب.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/moaaobw/musicmas",
+  "repository": "https://github.com/ERTWF/UWERT",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
