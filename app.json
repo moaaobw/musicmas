@@ -40,7 +40,7 @@
     "SUPPORT_GROUP": {
       "description": "معرف كروبك بدون @",
       "required": false,
-      "value": "faqek"
+      "value": "SORS_mas"
     },
     "SUDO_USERS": {
       "description": "حط ايدي المطورين.",
