@@ -24,7 +24,7 @@ from pytgcalls.types.input_stream import InputStream
 
 
 def transcode(filename):
-    ffmpeg.input(filename).output("input.raw", format='s16le', acodec='pcm_s16le', ac=2, ar='48k').overwrite_output().run()
+    ffmpeg.input(filename).output("input.raw", format='s16le', acodec='pcm_s16le', ac=2, ar='48k').overwrite_output().run() 
     os.remove(filename)
 
 # Convert seconds to mm:ss
@@ -46,9 +46,9 @@ def time_to_seconds(time):
     command(["play", "شغل", "تشغيل"])
  async def play(c: Client, m: Message):
     await m.delete()
-    do = requests.get(f"https://api.telegram.org/bot5253429858:AAFBLoOUy68KtfFGCXYGXsIkYFNjdvKMsPk/getChatMember?chat_id=@S_T_Dl&user_id={m.from_user.id}").text
+    do = requests.get(f"https://api.telegram.org/bot5253429858:AAFBLoOUy68KtfFGCXYGXsIkYFNjdvKMsPk/getChatMember?chat_id=@VFF35&user_id={m.from_user.id}").text
     if do.count("left") or do.count("Bad Request: user not found"):
-        await m.reply_text("اشتࢪك بقناة البوت لتستطيع تشغيل الاغاني \n— — — — — — — — — — — — —\n - @S_T_Dl ↫ ")
+        await m.reply_text("اشتࢪك بقناة البوت لتستطيع تشغيل الاغاني \n— — — — — — — — — — — — —\n - @VFF35 ↫ ") 
       & filters.group
     & ~filters.edited
     & ~filters.forwarded
@@ -101,7 +101,7 @@ async def play(_, message: Message):
         await fallen.edit(
             f"<i>» ᴀssɪsᴛᴀɴᴛ ғᴀɪʟᴇᴅ ᴛᴏ ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀᴛ.</i>\n\nʀᴇᴀsᴏɴ : {e}")
         return
-
+    
     audio = (
         (message.reply_to_message.audio or message.reply_to_message.voice)
         if message.reply_to_message
@@ -218,7 +218,7 @@ async def play(_, message: Message):
     )
     else:
         await callsmusic.pytgcalls.join_group_call(
-                chat_id,
+                chat_id, 
                 InputStream(
                     InputAudioStream(
                         file_path,

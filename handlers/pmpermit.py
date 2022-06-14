@@ -26,9 +26,9 @@ async def pmPermit(client: USER, message: Message):
                         "🥱 ʙᴏᴛ 🥱", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        "💖 قناة السورس 💖", url="https://t.me/S_T_Dl"
+                        "💖 قناة السورس 💖", url="https://t.me/VFF35"
                     )
-                ],[
+                ],[ 
                     InlineKeyboardButton(
                         "💞 شي مهم جدا 💞", url=f"https://t.me/{OWNER_USERNAME}"
                     )]
@@ -54,15 +54,15 @@ async def bye(client: Client, message: Message):
             await message.reply_text("» ᴘᴍ ᴘᴇʀᴍɪᴛ ᴅɪsᴀʙʟᴇᴅ ʙᴀʙʏ.")
             return
 
-@USER.on_message(filters.text & filters.private & filters.me)
+@USER.on_message(filters.text & filters.private & filters.me)        
 async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
         await message.reply_text("» ᴀᴜᴛᴏ ᴀᴘᴘʀᴏᴠᴇᴅ ᴛᴏ ᴘᴍ​ ʙᴀʙʏ.")
         return
-    message.continue_propagation()
-
+    message.continue_propagation()    
+    
 @USER.on_message(filters.command("a", ["!", ".", ""]) & filters.me & filters.private)
 async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
@@ -70,8 +70,8 @@ async def pmPermiat(client: USER, message: Message):
         pchats.append(chat_id)
         await message.reply_text("» ᴀᴘᴘʀᴏᴠᴇᴅ ᴛᴏ ᴘᴍ​.")
         return
-    message.continue_propagation()
-
+    message.continue_propagation()    
+    
 
 @USER.on_message(filters.command("da", ["!", ".", ""]) & filters.me & filters.private)
 async def rmpmPermiat(client: USER, message: Message):
