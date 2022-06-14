@@ -1,7 +1,7 @@
 {
-  "name": "ميوزك كوبرا",
-  "logo": "https://te.legra.ph/file/402c519808f75bd9b1803.jpg",
-  "description": "سورس كوبرا مجاني لايخدعك احد في التنصيب.",
+  "name": "ميوزك ماس",
+  "logo": "https://telegra.ph/file/b2c4ce7e2d6f302169df5.jpg",
+  "description": "سورس ماس مجاني لايخدعك احد في التنصيب.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
   "repository": "https://github.com/ERTWF/UWERT",
   "stack": "container",
@@ -35,17 +35,17 @@
     "OWNER_USERNAME": {
       "description": "معرفك كمطور بدون @",
       "required": false,
-      "value": "QABNADLIB"
+      "value": "QQWGT"
     },
     "SUPPORT_GROUP": {
       "description": "معرف كروبك بدون @",
       "required": false,
-      "value": "faqek"
+      "value": "SORS_mas"
     },
     "SUDO_USERS": {
       "description": "حط ايدي المطورين.",
       "required": true,
-      "value": "1939538780"
+      "value": "2069112486"
     },
     "START_IMG": {
       "description": "صوره للبوت مطلوب",
