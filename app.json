@@ -3,7 +3,7 @@
   "logo": "https://telegra.ph/file/b2c4ce7e2d6f302169df5.jpg",
   "description": "سورس ماس مجاني لايخدعك احد في التنصيب.",
   "keywords": ["music", "voicechat", "telegram", "fallen"],
-  "repository": "https://github.com/ERTWF/UWERT",
+  "repository": "https://github.com/moaaobw/musicmas",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
@@ -35,17 +35,17 @@
     "OWNER_USERNAME": {
       "description": "معرفك كمطور بدون @",
       "required": false,
-      "value": "QQWGT"
+      "value": "QABNADLIB"
     },
     "SUPPORT_GROUP": {
       "description": "معرف كروبك بدون @",
       "required": false,
-      "value": "SORS_mas"
+      "value": "faqek"
     },
     "SUDO_USERS": {
       "description": "حط ايدي المطورين.",
       "required": true,
-      "value": "2069112486"
+      "value": "1939538780"
     },
     "START_IMG": {
       "description": "صوره للبوت مطلوب",
