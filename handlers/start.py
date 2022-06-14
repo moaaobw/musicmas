@@ -19,7 +19,7 @@ async def start_(client: Client, message: Message):
  اضفني الى مجموعتك وامنحني الصلاحيات لكي اعمل بشكل صحيح
 ┏━━━━━━━━━━━━━━┓
 ┣★ نشكر كل مين اضاف
-┣★ [Source Cobra](t.me/{me})
+┣★ [Source MAS](t.me/{me})
 ┣★ بوتات ســـورس ماس
 ┗━━━━━━━━━━━━━━┛
 
