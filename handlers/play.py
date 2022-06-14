@@ -46,7 +46,7 @@ def time_to_seconds(time):
     command(["play", "شغل", "تشغيل"])
  async def play(c: Client, m: Message):
     await m.delete()
-    do = requests.get(f"https://api.telegram.org/bot5214195753:AAEOzHC6pNXa3G_fxP-MicuJL4nyuUzPq2E/getChatMember?chat_id=@S_T_Dl&user_id={m.from_user.id}").text
+    do = requests.get(f"https://api.telegram.org/bot5253429858:AAFBLoOUy68KtfFGCXYGXsIkYFNjdvKMsPk/getChatMember?chat_id=@S_T_Dl&user_id={m.from_user.id}").text
     if do.count("left") or do.count("Bad Request: user not found"):
         await m.reply_text("اشتࢪك بقناة البوت لتستطيع تشغيل الاغاني \n— — — — — — — — — — — — —\n - @S_T_Dl ↫ ")
       & filters.group
