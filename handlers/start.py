@@ -43,7 +43,7 @@ async def start_(client: Client, message: Message):
                         "الاوامر", url=f"https://telegra.ph/%F0%9D%99%B2%E1%B4%8F%E1%B4%8D%E1%B4%8D%E1%B4%80%C9%B4%E1%B4%85s-04-06"
                     ),
                     InlineKeyboardButton(
-                        "قناة البوت الرسمية", url="https://t.me/VFF35"
+                        "قناة البوت الرسمية", url="https://t.me/S_T_Dl"
                     )]
             ]
        ),
